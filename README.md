@@ -3,8 +3,8 @@
 ## how to run
 
 ```bash
-git clone //todo
-cd //todo
+git clone https://github.com/nicolas-racchi/nft-data
+cd nft-data
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
