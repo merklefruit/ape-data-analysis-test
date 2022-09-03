@@ -1,0 +1,14 @@
+name: nft-data
+
+plugins:
+  - name: solidity
+  - name: notebook
+  - name: etherscan
+  - name: ens
+
+default_ecosystem: ethereum
+
+ethereum:
+  default_network: mainnet
+  mainnet:
+    default_provider: alchemy
