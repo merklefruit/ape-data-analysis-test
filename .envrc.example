@@ -1,2 +1,3 @@
-WEB3_ALCHEMY_API_KEY=<your alchemy api key for mainnet>
-ETHERSCAN_API_KEY=<your etherscan api key>
+export WEB3_ALCHEMY_API_KEY=<your alchemy api key for mainnet>
+export WEB3_POLYGON_ALCHEMY_API_KEY=<your alchemy api key for polygon>
+export ETHERSCAN_API_KEY=<your etherscan api key>

@@ -1,14 +1,21 @@
-name: nft-data
+name: ape-data-analysis-test
 
 plugins:
+  # - name: etherscan not working with polygon at this time
   - name: solidity
   - name: notebook
-  - name: etherscan
+  - name: polygon
+  - name: alchemy
   - name: ens
 
 default_ecosystem: ethereum
 
 ethereum:
+  default_network: mainnet
+  mainnet:
+    default_provider: alchemy
+
+polygon:
   default_network: mainnet
   mainnet:
     default_provider: alchemy

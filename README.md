@@ -3,8 +3,8 @@
 ## how to run
 
 ```bash
-git clone https://github.com/nicolas-racchi/nft-data
-cd nft-data
+git clone https://github.com/nicolas-racchi/ape-data-analysis-test
+cd ape-data-analysis-test
 virtualenv venv
 source venv/bin/activate
 pip install -r requirements.txt
